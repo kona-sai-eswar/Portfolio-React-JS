@@ -1,0 +1,43 @@
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .experience {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  .companyDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .companyDetails:hover {
+    transform: scale(1.05);
+  }
+  
+  .companyDetails div {
+    color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .experience {
+      align-self: flex-start;
+    }
+    .companyDetails{
+        max-width: 400px;
+    }
+  }
+  

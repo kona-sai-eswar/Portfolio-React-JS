@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .image {
+    border-radius: 100%;
+    max-width: 200px;
+  }
+  
+  .brief {
+    width: 500px;
+    color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .icons {
+    padding-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icons a {
+    color: #00ADB5;
+    font-size: 24px;
+  }
+  
+  .icons a:hover {
+    color: #F5A623;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 786px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+    }
+  
+    .brief {
+      width: 100%;
+      padding: 0 20px;
+    }
+  
+    .icons {
+      justify-content: center;
+    }
+  }
+  

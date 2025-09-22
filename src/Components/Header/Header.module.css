@@ -1,0 +1,30 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #121212;
+    padding: 0 20px;
+    height: 70px; 
+    z-index: 1000; 
+  }
+  
+  .header nav {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .url {
+    text-decoration: none;
+    color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .url:hover {
+    color: #00ADB5;
+    transition: 0.3s;
+  }
+  
