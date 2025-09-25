@@ -1,16 +1,39 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+:root {
+  --bg-color: #121212;
+  --text-color: #E5E5E5;
+  --card-bg: #1E1E1E;
+  --accent-color: #00ADB5;
+  --hover-accent: #F5A623;
 }
 
-.container{
+.light-mode {
+  --bg-color: #FFFFFF;
+  --text-color: #111827;
+  --card-bg: #F3F4F6;
+  --accent-color: #00ADB5;
+  --hover-accent: #F5A623;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+
+.container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows:repeat(4, auto);
-  gap:20px;
+  grid-template-rows: repeat(4, auto);
+  gap: 20px;
   max-width: 800px;
   width: 100%;
   place-content: center;
   margin: 0 auto;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  padding-top: 70px;
 }
