@@ -4,6 +4,8 @@
   --card-bg: #1E1E1E;
   --accent-color: #00ADB5;
   --hover-accent: #F5A623;
+  --menu-bg-color: #E5E5E5;
+  --menu-text-color: black;
 }
 
 .light-mode {
@@ -12,6 +14,8 @@
   --card-bg: #F3F4F6;
   --accent-color: #00ADB5;
   --hover-accent: #F5A623;
+  --menu-bg-color: #E5E5E5;
+  --menu-text-color: black;
 }
 
 html {

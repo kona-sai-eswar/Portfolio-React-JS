@@ -103,10 +103,22 @@
     font-family: 'Roboto', sans-serif;
     transition: 0.3s;
   }
-  
-  @media (max-width: 768px) {
+
+  @media (max-width: 786px) {
     .project {
-      width: 350px;
+      width: 390px;
+      /* margin: 0px 30px; */
+    }
+  
+    .heading {
+      /* align-self: flex-start; */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .project {
+      width: 330px;
+      /* margin: 0px 30px; */
     }
   
     .heading {

@@ -28,9 +28,6 @@ function App() {
 
   },[lightMode])
 
-  // useEffect(() => {
-    
-  // }, [lightMode]);
 
   return (
     <>
