@@ -1,16 +1,15 @@
 import React from 'react'
 import styles from "./Experience.module.css"
+import ExperienceCard from './ExperienceCard'
 
-const Experience = () => {
+const Experience = ({experiences}) => {
   return (
     <>
       <div className={styles.container} id="experience">
-      <div className={styles.experience}>Experience</div>
-        <div className={styles.companyDetails}>
-          <div>Company</div>
-          <div>Skills</div>
-          <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, placeat? Culpa, saepe impedit praesentium labore perferendis harum minus omnis suscipit. Accusantium distinctio earum debitis! Ex consequuntur sint nihil officia repudiandae!</div>
-        </div>
+        <div className={styles.experience}>{experiences.length>1?"Experiences":"Experience"}</div>
+        {
+          experiences.map((experience,index)=>{ return <ExperienceCard experience={experience} key={index}/>})
+        }
       </div>
     </>
   )

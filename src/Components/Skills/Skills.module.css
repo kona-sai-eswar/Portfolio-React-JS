@@ -7,7 +7,7 @@
   }
   
   .skillsheader {
-    color: #FFFFFF;
+    color: var(--text-color);
     font-family: 'Poppins', sans-serif;
     align-self: center;
   }
@@ -15,31 +15,33 @@
   .skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 10px;
   }
   
   .frontend {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     gap: 10px;
     width: 600px;
   }
   
   .frontend span {
-    border: 2px solid #00ADB5;
+    border: 2px solid var(--accent-color);
     padding: 5px 10px;
     border-radius: 10px;
-    background-color: #121212;
-    color: #00ADB5;
+    background-color: var(--bg-color);
+    color: var(--accent-color);
     font-family: 'Roboto', sans-serif;
     transition: 0.3s;
   }
   
   .frontend span:hover {
     transform: scale(1.1);
-    background-color: #00ADB5;
-    color: #121212;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
   }
   
   @media (max-width: 768px) {

@@ -4,10 +4,10 @@
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-evenly;
     align-items: center;
-    background-color: #121212;
-    padding: 0 20px;
+    background-color: var(--bg-color);
+    /* padding-right:0px; */
     height: 70px; 
     z-index: 1000; 
   }
@@ -16,15 +16,94 @@
     display: flex;
     gap: 40px;
   }
+
+  .menu{
+    visibility: hidden;
+  }
+
+  .menuMobile{
+    display: none;
+  }
+  
   
   .url {
     text-decoration: none;
-    color: #E5E5E5;
+    color: var(--text-color);
     font-family: 'Poppins', sans-serif;
   }
   
   .url:hover {
-    color: #00ADB5;
+    color: var(--accent-color);
     transition: 0.3s;
   }
+
+  .toggleBtn {
+    background: none;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    /* width: 30px;
+    height: 30px; */
+    border: none;
+  }
   
+  .toggleBtn:hover {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+  }
+  
+  @media (max-width:480px) {
+    .menuMobile{
+      display: block;
+      position: absolute;
+      top:20px;
+      left:40px
+    }
+
+    .menu{
+      visibility:visible;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      position: absolute;
+      top: 80px;
+      /* left: 10px; */
+      max-height: 200px;
+      width: 250px;
+      background-color: var(--menu-bg-color);
+      /* background: rgba(0, 0, 0, 0.4); */
+      padding: 20px 20px;
+      border-radius: 8px;
+      /* box-shadow: 0 4px 6px var(--shadow-bg); */
+      /* opacity: 0.9; */
+      transform: translateY(0);
+      transition: all 0.3s ease-in-out;
+    }
+
+
+    .url{
+      color: var(--menu-text-color);
+    }
+
+    .menuHidden{
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-10px);
+      /* transition: all 0.3s; */
+
+    }
+
+    .toggleBtn{
+      position: absolute;
+      top:20px;
+      right:40px
+    }
+  }

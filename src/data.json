@@ -1,0 +1,75 @@
+{
+    "about":{
+        "name":"Sai Eswar",
+        "ProfileImage":"Project/vite-project/src/assets/KONA SAI ESWAR.jpg",
+        "bio":"Results-driven professional with 3 years of IT experience and strong practical expertise in React.js for front-end development. Proficient in building responsive, user-friendly web applications with a solid foundation in HTML, CSS, and JavaScript.",
+        "socialUrl":{
+            "likedin": "https://www.linkedin.com/in/konasaieswar/",
+            "github": "https://github.com/kona-sai-eswar"
+        }
+    },
+    "projects":[
+        {
+            "id":1,
+            "heading":"Today I Learned",
+            "description": "Built a full-stack React application that allows users to share, categorize, and vote on facts. Integrated Supabase as a backend for real-time data storage and retrieval. Implemented features including form validation, category filtering, voting system with live updates, and responsive UI with custom CSS. Optimized data handling with async queries, conditional rendering (loading/error states).",
+            "tech": ["React", "Supabase", "JavaScript"],
+            "liveDemo": "https://todayilearned-mine.netlify.app/",
+            "github": "https://github.com/kona-sai-eswar/Today-I-Learned.git"
+        },
+        {
+            "id":2,
+            "heading":"Notes App",
+            "description": "A React + Redux based note-taking web app with features to add, edit (inline), delete, and favourite notes. Implemented search and filter across both home and favourites, with persistent storage using localStorage and a custom persistence hook. Designed a clean, responsive UI with contextual action icons. Strengthened skills in React hooks and Redux Toolkit.",
+            "tech": ["React", "Redux toolkit", "JavaScript"],
+            "liveDemo": "https://notesapp-sai.netlify.app/",
+            "github": "https://github.com/kona-sai-eswar/NotesApp.git"
+        },
+        {
+            "id":3,
+            "heading":"Ticketing App",
+            "description": "Built a full-stack task management application using Next.js, MongoDB, and Mongoose. Implemented category-based ticket display with priority, status, progress, and description. Developed CRUD functionality with API routes and dynamic routing, including reusable forms for creating and updating tasks.",
+            "tech": ["Next.js", "MongoDB", "JavaScript"],
+            "github": "https://github.com/kona-sai-eswar/Ticketing-App-Next.js.git"
+        },
+        {
+            "id":4,
+            "heading":"E-Commerce Website",
+            "description": "Developed a single-page e-commerce application using React, React Router, and Context API to manage global state. Implemented product listing with category filters, dynamic routing for product detail pages, and a shopping cart with add/remove/clear functionality. Designed a responsive UI with navigation showing real-time cart count.",
+            "tech": ["React", "React Router", "JavaScript"],
+            "github": "https://github.com/kona-sai-eswar/E-Commerce.git"
+        },
+        {
+            "id":5,
+            "heading":"Movie Explorer",
+            "description": "Built a responsive React.js application that integrates with The Movie Database (TMDb) API to display popular and searched movies. Implemented a favourites feature with Context API and localStorage persistence, and used React Router to navigate between Home and Favourites pages. Designed reusable UI components for a smooth user experience.",
+            "tech": ["React", "React Router", "JavaScript"],
+            "github": "https://github.com/kona-sai-eswar/Movies-App.git"
+        }
+    ],
+    "skills": [
+        "React",
+        "Redux Toolkit",
+        "Next.js",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "MongoDB"
+    ],
+    "experiences":[
+        {
+            "id":1,
+            "company":"Tata Consultancy Services",
+            "role":"Systems Engineer",
+            "duration":"Aug 2022 - Present",
+            "description":[
+                "Designed and built responsive layouts for desktop and mobile using HTML, CSS, and JavaScript",
+                "Created and maintained clean, reliable code with Velocity templates.",
+                "Used Splunk for log analysis and debugging to improve performance and reliability.",
+                "Worked with cross-functional teams and contributed through peer code reviews to deliver projects successfully."
+            ]
+        }
+    ]
+}
