@@ -1,5 +1,5 @@
 .container {
-    margin: 20px;
+    /* margin: 20px; */
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -54,22 +54,28 @@
   }
   
   @media (max-width: 786px) {
-    .experience {
-      /* align-self: flex-start; */
-    }
+
     .companyDetails{
-        max-width: 400px;
+        max-width: 390px;
         /* margin: 0px 25px; */
     }
   }
 
   @media (max-width: 480px) {
-    .experience {
-      /* align-self: flex-start; */
-    }
+
     .companyDetails{
         max-width: 350px;
         /* margin: 0px 25px; */
     }
   }
+
+  @media (max-width: 400px) {
+
+    .companyDetails{
+        max-width: 330px;
+        /* margin: 0px 25px; */
+    }
+  }
+
+  
   
