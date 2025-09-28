@@ -1,6 +1,6 @@
 .maincontainer{
     display: flex;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 .container {
@@ -65,4 +65,27 @@
   .icons {
     justify-content: center;
   }
+}
+
+@media (max-width: 480px) {
+  
+
+  .brief {
+    width: 350px;
+    /* padding: 0 10px; */
+  }
+
+  
+}
+
+
+@media (max-width: 400px) {
+  
+
+  .brief {
+    width: 330px;
+    /* padding: 0 10px; */
+  }
+
+  
 }
